@@ -1,13 +1,13 @@
 ## Project Summary
 
-The Sparkify is a music app that generates a lot of data about users and songs. All the data is inside a data lake in AWS S3 Bucket in .json format and the analytics team ask to data engineer prepare the data to find more insights in what songs their users are listening to.
+The Sparkify is a music app that generates a lot of data about users and songs. All the data is inside a data lake in AWS S3 Bucket in .json format and the analytics team asks for a data engineer to prepare the data to find more insights into what songs their users are listening to.
 
-The project consist in creates a ETL pipeline to a datalake hosted on S3. The goal was load data from S3, process it into analytics tables using Spark and, load them back to S3
+The project consists in creates an ETL pipeline to a data lake hosted on S3. The goal was to load data from S3, process it into analytics tables using Spark and, load them back to S3
 
 
 ## About Tables
 
-The structure of the analytics table is a star schema format. This format can be easier to the team realize joins and rise the productivity.
+The structure of the analytics table is a star schema format. This format can be easier for the team to realize joins and raise productivity.
 
 #### Fact Table
 
@@ -33,10 +33,10 @@ The structure of the analytics table is a star schema format. This format can be
 
 ## About Files
 
-The project have three files: 
+The project has three files: 
 
 1. etl.py - reads data from S3, processes data using Spark, and writes them back to S3
 
 2. dl.cfg - contains AWS credentials
 
-3. readme.md - provides a summary about the project and some decisions.
+3. readme.md - provides a summary of the project and some decisions.
